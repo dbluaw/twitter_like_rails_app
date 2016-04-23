@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'serverspec', '~> 2.31', '>= 2.31.1'
+gem 'docker-api', '~> 1.26', '>= 1.26.2'
 gem 'selenium-webdriver', '~> 2.53'
 gem 'rspec-expectations', '~> 3.4'
 gem 'headless', '~> 2.2', '>= 2.2.3'
