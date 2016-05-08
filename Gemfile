@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'bcrypt',               '3.1.7'
 gem 'serverspec', '~> 2.31', '>= 2.31.1'
 gem 'docker-api', '~> 1.26', '>= 1.26.2'
 gem 'selenium-webdriver', '~> 2.53'
