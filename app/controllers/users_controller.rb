@@ -8,4 +8,13 @@ class UsersController < ApplicationController
     @user = User.new
   end
 
+  def create
+    @user = User.new(params[:user])    #testing
+    if @user.save
+      #testing
+    else
+      render 'new'
+    end
+  end
+
 end
